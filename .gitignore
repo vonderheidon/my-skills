@@ -1,0 +1,23 @@
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*token*
+*secret*
+*credential*
+# Ambientes e caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+.DS_Store
+# Artefatos temporários e de clientes
+*.pdf
+*.zip
+*.tar.gz
+*.sqlite
+*.db
+*.log
